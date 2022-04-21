@@ -185,7 +185,7 @@ class start:
         alien = Alien(self)
         alien_width, alien_height = alien.rect.size
         available_space_x = self.settings.screen_width - (2 * alien_width)
-        number_aliens_x = available_space_x // (2 + alien_width)
+        number_aliens_x = available_space_x // (2 * alien_width)
 
         ship_height = self.ship.rect.height
         available_space_y = (self.settings.screen_height - 

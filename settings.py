@@ -21,7 +21,7 @@ class Settings:
         self.bullet_allowed = 3
         
         #alieb settings
-        self.fleet_drop_Speed = 1
+        self.fleet_drop_Speed = 3
         
         #how quickly the game speeds up
         self.speedup_scale = 1.1
